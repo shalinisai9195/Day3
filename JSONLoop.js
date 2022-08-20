@@ -11,7 +11,18 @@ Contect_no : 9845768344}]
 
 console.log(JSON.stringify(resume))
 
+/// using For loop
+let for_result = "";
 for(let i=0; i < resume.length; i++)
 {
-    console.log(resume[i]);
+    forresult += resume[i] + " ";
 }
+console.log(for_result);
+/// using For in
+let forin_result = "";
+
+for (let k in resume) {
+   
+txt_ += resume[k] + " ";
+}
+console.log(forin_result);
